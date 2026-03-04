@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db0902Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="dept">
+    <Key>
+      <PropertyRef Name="deptid" />
+    </Key>
+    <Property Name="empid" Type="int" />
+    <Property Name="deptid" Type="int" Nullable="false" />
+    <Property Name="deptname" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="empid" Type="int" Nullable="false" />
+    <Property Name="empname" Type="varchar" MaxLength="20" />
+    <Property Name="doj" Type="date" />
+    <Property Name="salary" Type="int" />
+    <Property Name="dept" Type="int" />
+  </EntityType>
+  <Function Name="getempbyid" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="db0902ModelStoreContainer">
+    <EntitySet Name="dept" EntityType="Self.dept" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

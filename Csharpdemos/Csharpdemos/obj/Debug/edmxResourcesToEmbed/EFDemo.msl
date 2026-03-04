@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db0902ModelStoreContainer" CdmEntityContainer="db0902Entities">
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="db0902Model.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="empname" ColumnName="empname" />
+          <ScalarProperty Name="doj" ColumnName="doj" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="dept" ColumnName="dept" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="depts">
+      <EntityTypeMapping TypeName="db0902Model.dept">
+        <MappingFragment StoreEntitySet="dept">
+          <ScalarProperty Name="deptname" ColumnName="deptname" />
+          <ScalarProperty Name="deptid" ColumnName="deptid" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="getempbyid" FunctionName="db0902Model.Store.getempbyid">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="db0902Model.getempbyid_Result">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="empname" ColumnName="empname" />
+          <ScalarProperty Name="doj" ColumnName="doj" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="dept" ColumnName="dept" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,17 @@
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\bin\Debug\codefirstdemo.exe.config
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\bin\Debug\codefirstdemo.exe
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\bin\Debug\codefirstdemo.pdb
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirs.DB0A7D54.Up2Date
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.exe
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.pdb
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.exe.config
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.Migrations.hi.resources
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.Migrations.newchanges.resources
+C:\Users\Administrator\source\repos\Csharpdemos\codefirstdemo\obj\Debug\codefirstdemo.Migrations.v.resources
