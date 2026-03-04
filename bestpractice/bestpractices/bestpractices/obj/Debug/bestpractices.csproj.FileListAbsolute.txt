@@ -1,0 +1,8 @@
+C:\Users\Administrator\source\repos\bestpractices\bestpractices\bin\Debug\bestpractices.exe.config
+C:\Users\Administrator\source\repos\bestpractices\bestpractices\bin\Debug\bestpractices.exe
+C:\Users\Administrator\source\repos\bestpractices\bestpractices\bin\Debug\bestpractices.pdb
+C:\Users\Administrator\source\repos\bestpractices\bestpractices\obj\Debug\bestpractices.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\bestpractices\bestpractices\obj\Debug\bestpractices.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\bestpractices\bestpractices\obj\Debug\bestpractices.exe
+C:\Users\Administrator\source\repos\bestpractices\bestpractices\obj\Debug\bestpractices.pdb
+C:\Users\Administrator\source\repos\bestpractices\bestpractices\obj\Debug\bestpractices.exe.config
